@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 1rem;
+    color: #1d3557;
+    background-color:#a8dadc ;
+    text-align: center;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+   
+}
+.box{
+    height: 18vmin;
+    width: 18vmin ;
+   border-radius: 1rem;
+   border: none;
+   box-shadow:0 0 1rem rgba(0 , 0 , 0.2);
+   font-size: 8vmin;
+   background-color: #f1faee;
+   color: #e63946;
+   transition: 1s;
+}
+.box:hover{
+    height: 18.5vmin;
+    width: 18.5vmin;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:#457b9d;
+    color: white;
+    transition: 1s;
+    border-radius: 1rem;
+}
+#reset:hover{
+font-size: 1.30rem;
+background-color: #1d3557;
+border-radius: 1rem 2rem;
+
+}
+.new-game{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:#457b9d;
+    color: white;
+    transition: 1s;
+    border-radius: 1rem;
+
+}
+.new-game:hover{
+    font-size: 1.30rem;
+    background-color: #1d3557;
+    border-radius: 2rem 1rem;
+}    
+.winning-msg{
+    
+    font-size: 5rem;
+    color: #e63946;
+   
+}
+.hide{
+    display: none;
+}
